@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:wght@500;600;700;800&family=IBM+Plex+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/addAndEditStylesheet.css" />
+    <title>Add Product</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header-container">
+        <a href="index.html" class="login"
+          ><i class="fa-solid fa-user user-icon"></i> Log out</a
+        >
+        <a href="index.html"><img src="./assets/img/logo.jpg" class="header-logo" /></a>
+        <a href="##" class="shopping">
+          
+        </a>
+      </header>
+	  <main>
+      <nav class="navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="index.html">Home</a></li>
+          <li class="nav-item"><a href="shopping.html">Shop</a></li>
+          <li class="nav-item"><a href="about-us.html">About us</a></li>
+        </ul>
+      </nav>
+
+
+    <!--MAIN CONNTENT-->
+    <div class="loginWrapper">
+        <div class="loginContainer">
+          <div class="loginMyForm">
+        <h1 >Add Product</h1>
+        
+        <br>
+        <form action="" method="post" class="container" style="text-align: left;">
+            <fieldest class="input-group">
+                
+                <label>Product name:</label>
+                 <input type="text" name="Pname">
+                <br><br>
+                <label>Product era:</label>
+                <input type="number" min="1000" max="3000" name="Pera"> 
+                <br><br>
+                <label>Measurements: </label>
+                <textarea name="Pmeasure" cols="75" rows="10"></textarea>
+                <br><br>
+                <label>Category:</label>
+                    <select name="measure" id="measure">
+                        <option value="-1">Choose</option>
+                        <option value="0">Clothes </option>
+                        <option value="1">Bags</option>
+                        <option value="2">Jewelry </option>
+                        <option value="3">accessories</option>
+                    </select>
+                
+                <br><br><br>
+                <label>Condition:</label> <input type="text"> 
+                <br><br>
+                <label>Material: </label><input type="text"> 
+                <br><br>
+                <label>Origin: </label><input type="text"> 
+                <br><br>
+                <label>Product brand: </label><input type="text"> 
+                <br><br>
+                <label>Product cost: </label><input type="number" min="0" name="Pcost">
+                <br><br><br><br>
+            </fieldest>
+
+            <fieldset class="input-group">
+                <legend>Upload an Image: </legend>
+                <input type="file" name="Pfile[]"><br><br>
+                <input type="file" name="Pfile[]"><br><br>
+                <input type="file" name="Pfile[]"><br><br>
+            </fieldset>
+            <br><br>
+            <button type="submit" role="button" style="width:45% ;"><a href="shopping.html" style="color:white ;"> Add Product </a>   </button>
+            <button type="submit" style="float: right; width:45%;" role="button"><a href="shopping.html" style="color:white ;"> Cancel </a></button>
+            <br><br><br><br>
+        </form>
+    </div>
+</div>
+</div>
+</div>
+</main>
+
+    <!--FOOTER-->
+    <footer class="footer-container">
+        <div class="socials">
+            <a class="social" href="https://www.facebook.com/">
+                <i class="fa-brands fa-square-facebook"></i>
+            </a>
+            <a class="social" href="https://twitter.com/">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a class="social" href="https://www.instagram.com/">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </div>
+        <span class="copyright">@2022, Vintage pieces</span>
+    </footer>
+</body>
+
+</html>

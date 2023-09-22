@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:wght@500;600;700;800&family=IBM+Plex+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/ProductsStylesheet.css" />
+    <title>Vintage pieces</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header-container">
+        <a href="login.html" class="login"
+          ><i class="fa-solid fa-user user-icon"></i> Log In</a
+        >
+        <a href="index.html"><img src="./assets/img/logo.jpg" class="header-logo" /></a>
+        <a href="Cart.html" class="shopping">
+          <i class="fa-sharp fa-solid fa-bag-shopping"></i>
+        </a>
+      </header>
+	  <main>
+      <nav class="navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="index.html">Home</a></li>
+          <li class="nav-item"><a href="shopping.html">Shop</a></li>
+          <li class="nav-item"><a href="about-us.html">About us</a></li>
+        </ul>
+      </nav>
+
+      <!-- PRODUCT -->
+      <div class="productContainer">
+
+        <div >
+          <h3 class="productName">CHRISTIAN DIOR Vintage</h3>
+          <p class="productType">accessories</p>
+          <p class="productPrice">687 SAR</p>
+        </div>
+
+        <div class="productTopContent">
+          <div class="productPreviewItem">
+            <div class="productPreviewItemContainer">
+              <img
+                id="productExpandedImg"
+                src="Image/sunglasses.jpg"
+                style="width:24% ; margin-left: 38%;"
+              />
+            </div>
+            <div class="productPreviewItemRow">
+              <div class="productPreviewItemColumn">
+                <img
+                  src="Image/sunglasses2.jpg"
+                  alt=""
+                  style="width: 100%"
+                  onclick="previewImage(this);"
+                />
+              </div>
+              <div class="productPreviewItemColumn">
+                <img
+                  src="Image/sunglasses3.webp"
+                  alt=""
+                  style="width: 100%"
+                  onclick="previewImage(this);"
+                />
+              </div>
+              <div class="productPreviewItemColumn">
+                <img
+                  src="Image/sunglasses.jpg"
+                  alt=""
+                  style="width: 100%"
+                  onclick="previewImage(this);"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="productGeneralInformation">
+            <div class="productBtnActions">
+               
+              <a href="Edit.html">
+                <button class="productBtn productBtnAddToDreamBox">Edit</button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="productBottomContent">
+          <div class="productBottomContentLeft">
+            <div class="productBottomContentItem">
+              <h4 class="productBottomTitle">Origin</h4>
+              <p class="productBottomInfo">
+               Made in Italy
+              </p>
+            </div>
+            <div class="productBottomContentItem">
+              <h4 class="productBottomTitle">Measurements</h4>
+              <p class="productBottomInfo">
+                Comes in one size
+              </p>
+            </div>
+            <div class="productBottomContentItem">
+              <h4 class="productBottomTitle">Brand</h4>
+              <p class="productBottomInfo">
+                CHRISTIAN DIOR
+              </p>
+            </div>
+          </div>
+          <div class="productBottomContentRight">
+            <div class="productBottomContentItem">
+              <h4 class="productBottomTitle">
+                <span>Material</span>
+                <span class="productBottomIcon">
+                  <i class="fa-solid fa-circle-info"></i>
+                </span>
+              </h4>
+              <p class="productBottomInfo">
+                <span
+                  >Metal</span
+                >
+              </p>
+            </div>
+            <div class="productBottomContentItem">
+              <h4 class="productBottomTitle">Condition</h4>
+              <p class="productBottomInfo">
+               Excellent
+              </p>
+            </div>
+            <div class="productBottomContentItem">
+              <h4 class="productBottomTitle">Era</h4>
+              <p class="productBottomInfo">
+               1998
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+</main>
+      <!-- FOOTER -->
+      <footer class="footer-container">
+        <div class="socials">
+          <a class="social" href="https://www.facebook.com/">
+            <i class="fa-brands fa-square-facebook"></i>
+          </a>
+          <a class="social" href="https://twitter.com/">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a class="social" href="https://www.instagram.com/">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+        <span class="copyright">@2022, Vintage pieces</span>
+      </footer>
+    </div>
+  </body>
+  <!-- JS SCRIPTS -->
+  <script>
+    function previewImage(imgs) {
+      console.log(imgs);
+      var expandImg = document.getElementById("productExpandedImg");
+      expandImg.src = imgs.src;
+      expandImg.parentElement.style.display = "block";
+    }
+  </script>
+</html>
