@@ -15,9 +15,10 @@
 
 
  ## Description 
- At vintage Pieces website, we have a deep appreciation for the beauty and stories behind vintage items. Our mission is to connect vintage enthusiasts with exquisite pieces from bygone eras. We take pride in sourcing and preserving these treasures to ensure they find new homes where they'll be cherished for generations to come.
+At the Vintage Pieces website, we are passionate about preserving the beauty and significance of vintage clothing. Our mission is to connect fashion lovers with the stories and craftsmanship behind each vintage piece. Every garment in our collection is a testament to the enduring appeal of fashion history.
+
  <p> </p>
-Welcome to Vintage Treasures, your online sanctuary for all things vintage and timeless. Our website is a treasure trove of carefully curated vintage pieces, each with its own unique history and charm. Whether you're a collector, an enthusiast, or simply drawn to the allure of the past, our collection has something to offer every vintage aficionado.
+Welcome to Vintage Pieces, your online sanctuary for all things vintage and timeless. Our website is a treasure trove of carefully curated vintage pieces, each with its own unique history and charm. Whether you're a collector, an enthusiast, or simply drawn to the allure of the past, our collection has something to offer every vintage aficionado.
 
 
 
