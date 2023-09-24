@@ -1,7 +1,5 @@
 # vintage Pieces
 
-# LUXE
-
 <p align="center">
   <img src="the code\assets\img\logo.jpg" alt="logo" width="400" height="300">
 </p>
